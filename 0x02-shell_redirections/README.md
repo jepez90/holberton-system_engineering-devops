@@ -1,4 +1,4 @@
-#project 0x02. Shell, I/O Redirections and filters
+# Project 0x02. Shell, I/O Redirections and filters
 
 project about the fata flows in shell
 
