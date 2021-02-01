@@ -1,1 +1,2 @@
 #!/bin/bash
+ls -AFR |grep ".js" | grep -v "/"
