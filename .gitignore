@@ -1,4 +1,4 @@
-### Emacs ###
+### <img src="https://i.imgur.com/s1rXGpW.png" alt="Logo C" height="30"> Emacs ###
 # -*- mode: gitignore; -*-
 *~
 \#*\#
@@ -50,7 +50,7 @@ flycheck_*.el
 /network-security.data
 
 
-### Linux ###
+### <img src="https://i.imgur.com/s1rXGpW.png" alt="Logo C" height="30"> Linux ###
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
@@ -64,7 +64,7 @@ flycheck_*.el
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### Vim ###
+### <img src="https://i.imgur.com/s1rXGpW.png" alt="Logo C" height="30"> Vim ###
 # Swap
 [._]*.s[a-v][a-z]
 !*.svg  # comment out if you don't need vector files
