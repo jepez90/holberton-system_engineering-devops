@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#Displays Holberton School 10 times using while loop and show 'bad luck' at 4 and 'good luck' at 8.
+i=0
+while ((i++ < 20))
+do
+    echo "$i"
+    case $i in
+        4)
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "bad luck from Italy"
+            ;;
+    esac
+done

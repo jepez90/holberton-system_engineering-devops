@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Displays Holberton School 10 times using while loop and show hi at 9.
+i=0
+while ((i++ < 10))
+do
+    echo Holberton School
+    if [ $i -eq 9 ]
+    then
+        echo Hi
+    fi
+done

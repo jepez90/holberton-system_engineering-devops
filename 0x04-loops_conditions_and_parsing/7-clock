@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Displays Holberton School 10 times using while loop.
+i=0
+while ((i < 13))
+do
+    j=0
+    echo "Hour: $i"
+    while ((j++ < 59))
+    do
+        echo $j
+    done
+    ((i++))
+done
