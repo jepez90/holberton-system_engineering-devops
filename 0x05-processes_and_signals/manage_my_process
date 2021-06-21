@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# daemond thath write I am alive! in /tmp/my_process file each 2 seconds
+
+while (( 1 ))
+do
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
+done
