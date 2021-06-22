@@ -65,7 +65,7 @@ Bash script that:
 
 
 * <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **101-manage_my_process, manage_my_process**<br />
-***manage_my_process*** Bash script that:
+Bash script that:
     * Indefinitely writes ***I am alive!*** to the file ***/tmp/my_process***
     * In between every ***I am alive!*** message, the program should pause for 2 seconds
 Bash (init) script ***101-manage_my_process*** that manages ***manage_my_process***. with arguments ***start***, ***stop*** and ***restart***
@@ -73,5 +73,3 @@ Bash (init) script ***101-manage_my_process*** that manages ***manage_my_process
 * <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **102-zombie.c**<br />
 C program that creates 5 zombie processes.
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **103-screencast_unix_signal**<br />
-Screencast where you live-code/demo something related to Unix signals.
