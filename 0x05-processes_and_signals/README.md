@@ -70,6 +70,6 @@ Bash script that:
     * In between every ***I am alive!*** message, the program should pause for 2 seconds
 Bash (init) script ***101-manage_my_process*** that manages ***manage_my_process***. with arguments ***start***, ***stop*** and ***restart***
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **102-zombie.c**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logoC.svg" alt="Logo C" height="15"> **102-zombie.c**<br />
 C program that creates 5 zombie processes.
 

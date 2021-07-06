@@ -52,7 +52,7 @@ Basic shell scripting
 
 <br />
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_folder.svg" alt="Logo Folder" height="15"> **0x03. Shell, init files, variables and expansions**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_folder.svg" alt="Logo Folder" height="15"> **0x05. Processes and signals**<br />
 > <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> Exercises about:
     * What is a PID
     * What is a process
@@ -60,5 +60,17 @@ Basic shell scripting
     * How to kill a process
     * What is a signal
     * What are the 2 signals that cannot be ignored
+
+<br />
+
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_folder.svg" alt="Logo Folder" height="15"> **0x06. Regular expression**<br />
+> <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> Exercises about:
+    * Regular Expression using Ruby
+
+<br />
+
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_folder.svg" alt="Logo Folder" height="15"> **0x07. Networking basics #0**<br />
+> <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> Exercises about:
+    OSI Model and Different types of network.
 
 <br />
