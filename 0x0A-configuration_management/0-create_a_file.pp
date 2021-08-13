@@ -2,9 +2,8 @@
 
 $cont = 'I love Puppet'
 
-file{'Holberton':
-    path     => '/tmp/Holberton',
-    ensure   => 'absent',
+file{'holberton':
+    path     => '/tmp/holberton',
     content  => $cont,
     mode     => '0744',
     owner    => 'www-data',
