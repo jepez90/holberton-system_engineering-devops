@@ -2,7 +2,7 @@
 # Install nginx server
 
 echo "Holberton School" > /var/www/html/index.html
-sudo sed -i "s/server {/server {\n\trewrite ^\/redirect_me$ https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;/" /etc/nginx/sites-available/default
+sudo sed -i "s/listen 80 default_server;/listen 80 default_server;\n\trewrite ^\/redirect_me$ https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;/" /etc/nginx/sites-available/default
 sudo service nginx restart
 
 
