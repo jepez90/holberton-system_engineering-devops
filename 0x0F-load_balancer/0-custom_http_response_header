@@ -6,13 +6,13 @@ apt-get -y install nginx
 echo "Holberton School" > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/error404.html
 host_name=$(hostname)
-
 old_config="server_name _;"
+
 new_config="${old_config}\n\n\tlocation \/redirect_me {\
     \n\t\treturn 301 https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4;\n\t\
     }"
 new_config="${new_config}\n\n\terror_page 404 \/error404.html;\n"
-new_config="${new_config}\nadd_header X-Served-By ${host_name}\n"
+new_config="${new_config}\nadd_header X-Served-By ${host_name} always;\n"
 
 sed -i "s/$old_config/$new_config/" /etc/nginx/sites-available/default
 
