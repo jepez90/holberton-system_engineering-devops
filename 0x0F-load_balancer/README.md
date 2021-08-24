@@ -23,3 +23,7 @@
 Bash script that Configure Nginx so that its HTTP response contains a custom header (on **web-01** and **web-02**)
 The name of the custom HTTP header must be **X-Served-By**
 The value of the custom HTTP header must be the hostname of the server Nginx is running on
+
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **1-install_load_balancer**<br />
+Bash script that configures a new Ubuntu machine with HAProxy that send traffic to **web-01** and **web-02**
+Distribute requests using a roundrobin algorithm
