@@ -4,7 +4,7 @@
 apt-get install --no-install-recommends software-properties-common
 add-apt-repository ppa:vbernat/haproxy-2.0
 
-apt-get install haproxy
+apt-get install -y haproxy
 
 config='backend myBackend
     mode http
