@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # change nginx listen ports
-sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
-pkill -9 nginx
+sudo sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+sudo pkill -9 nginx
