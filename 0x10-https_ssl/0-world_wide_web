@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# show info about the given domain
+
+# function that display information about the subdomain
+show_info(){
+    subdomain=$1
+    domain=$2
+
+    record=$(dig "${subdomain}.${domain}" | grep -A 2 "ANSWER SECTION"| grep "$subdomain.$domain")
+
+    record_type=$(echo "${record}" | awk '{print $4}')
+    destination=$(echo "${record}" | awk '{print $5}')
+
+    echo "The subdomain ${subdomain} is a ${record_type} record and points to ${destination}"
+}
+
+if (($# == 2))
+then
+    show_info "$2" "$1"
+
+elif (($# == 1))
+then
+    for subdomain in "www" "lb-01" "web-01" "web-02"
+    do
+        show_info "$subdomain" "$1"
+    done
+fi
