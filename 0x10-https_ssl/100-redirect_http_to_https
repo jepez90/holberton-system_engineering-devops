@@ -40,7 +40,7 @@ defaults
 backend www-backend
         mode http
         balance roundrobin
-        redirect scheme https if !{ ssl_fc }
+        http-request redirect scheme https code 301 if !{ ssl_fc }
         server web-01 34.138.86.55:80
         server web-02 34.75.178.179:80
 
