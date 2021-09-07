@@ -19,7 +19,7 @@
 
 ## Files in this Folder:
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **0-world_wide_web**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-world_wide_web**<br />
 Bash script must accept 2 arguments:
     * **domain**:
         * type: string
@@ -41,7 +41,7 @@ You do not need to handle edge cases such as:
     * Nonexistent domain names
     * Nonexistent subdomains
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **1-haproxy_ssl_termination**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **1-haproxy_ssl_termination**<br />
 File to configurate the HAProxy load balancer as SSL
     * HAproxy must be listening on port TCP 443
     * HAproxy must be accepting SSL traffic

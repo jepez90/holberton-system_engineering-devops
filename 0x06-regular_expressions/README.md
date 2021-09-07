@@ -20,10 +20,10 @@
 
 ## Files in this Folder:
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **0-simply_match_holberton.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-simply_match_holberton.rb**<br />
 The regular expression must match ***Holberton***.
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **1-repetition_token_0.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **1-repetition_token_0.rb**<br />
 The regular expression must the nexts match 
     * hbn
     * hbtn
@@ -33,14 +33,14 @@ The regular expression must the nexts match
     * ***hbtttttn***
     * hbttttttn
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **2-repetition_token_1.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **2-repetition_token_1.rb**<br />
 The regular expression must the nexts match 
     * ***htn***
     * ***hbtn***
     * hbbtn
     * hbbbtn
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **3-repetition_token_2.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **3-repetition_token_2.rb**<br />
 The regular expression must the nexts match 
     * hbn
     * ***hbtn***
@@ -48,7 +48,7 @@ The regular expression must the nexts match
     * ***hbtttn***
     * ***hbttttn***
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **4-repetition_token_3.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **4-repetition_token_3.rb**<br />
 The regular expression must the nexts match
     * ***hbn***
     hbon
@@ -57,11 +57,11 @@ The regular expression must the nexts match
     * ***hbtttn***
     * ***hbttttn***
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **5-beginning_and_end.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **5-beginning_and_end.rb**<br />
 The regular expression must be exactly matching a string that starts with ***h*** ends with ***n*** and can have any single character in between
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **6-phone_number.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **6-phone_number.rb**<br />
 The regular expression must match a 10 digit phone number
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **7-OMG_WHY_ARE_YOU_SHOUTING.rb**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **7-OMG_WHY_ARE_YOU_SHOUTING.rb**<br />
 The regular expression must be only matching: capital letters

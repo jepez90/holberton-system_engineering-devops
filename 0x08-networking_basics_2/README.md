@@ -18,14 +18,14 @@
 
 ## Files in this Folder:
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **0-change_your_home_IP**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-change_your_home_IP**<br />
 Bash script that configures an Ubuntu server in Docker with the below requirements.
     * ***localhost*** resolves to ***127.0.0.2***
     * ***facebook.com*** resolves to ***8.8.8.8***.
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **1-show_attached_IPs**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **1-show_attached_IPs**<br />
 Bash script that displays all active IPv4 IPs on the machine it’s executed on.
 
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **100-port_listening_on_localhost**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **100-port_listening_on_localhost**<br />
  Bash script that listens on port ***98*** on ***localhost***.

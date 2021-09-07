@@ -9,22 +9,22 @@
 <img src="https://img.shields.io/badge/jepez90-white?style=flat&logo=gmail" alt="Logo Gmail">&nbsp;
 <a href="https://twitter.com/HolbertonCOL"><img src="https://img.shields.io/badge/Holberton_School-red" alt="Logo Holberton">&nbsp;</a>
 
-<a href="https://github.com/jepez90"><img src="https://visitor-badge.glitch.me/badge?page_id=jepez90.system_engineering-devops.0x13" alt="badget visitors"></a>
+<a href="https://github.com/jepez90"><img src="https://visitor-badge.glitch.me/badge?page_id=jepez90.system_engineering-devops.0x12" alt="badget visitors"></a>
 </div>
 
-# Project: 0x13. Firewall
+# Project: 0x12. Web stack debugging #2
 
-> Excercises about: how to configure firewall using ufw.
+> Excercises about: how to fix a web stack
 
 
 ## Files in this Folder:
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **0-0-block_all_incoming_traffic_but**<br />
-Bash script to configure ufw so that it blocks all incoming traffic, except the following TCP ports:
-    ***22*** (SSH)
-    ***443*** (HTTPS SSL)
-    ***80*** (HTTP)
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-iamsomeoneelse**<br />
+Bash script that accepts one argument and run the whoami command under the user passed as an argument
 
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_code_file.svg" alt="Logo Code" height="16"> **100-port_forwarding**<br />
-Content of the ufw config file
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **1-run_nginx_as_nginx**<br />
+Bash script that run ***nginx*** as procces for the user ***nginx*** and configure it to listen the port 8080
+
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **100-fix_in_7_lines_or_less**<br />
+Bash script that run ***nginx*** as procces for the user ***nginx*** and configure it to listen the port 8080, in 7 lines or less

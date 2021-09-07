@@ -19,12 +19,12 @@
 
 ## Files in this Folder:
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="15"> **0-0-block_all_incoming_traffic_but**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-0-block_all_incoming_traffic_but**<br />
 Bash script to configure ufw so that it blocks all incoming traffic, except the following TCP ports:
     ***22*** (SSH)
     ***443*** (HTTPS SSL)
     ***80*** (HTTP)
 
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_code_file.svg" alt="Logo Code" height="16"> **100-port_forwarding**<br />
+* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_code_file.svg" alt="Logo Code" height="20"> **100-port_forwarding**<br />
 Content of the ufw config file
