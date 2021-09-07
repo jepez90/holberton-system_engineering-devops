@@ -19,12 +19,12 @@
 
 ## Files in this Folder:
 
-* <a href="100-fix_in_7_lines_or_less"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-iamsomeoneelse**</a> <br />
+* <a href="100-fix_in_7_lines_or_less"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **0-iamsomeoneelse**</a> <br />
 Bash script that accepts one argument and run the whoami command under the user passed as an argument
 
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **1-run_nginx_as_nginx**<br />
+* <a href="1-run_nginx_as_nginx"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **1-run_nginx_as_nginx**</a><br />
 Bash script that run ***nginx*** as procces for the user ***nginx*** and configure it to listen the port 8080
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **100-fix_in_7_lines_or_less**<br />
+* <a href="100-fix_in_7_lines_or_less"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20">  **100-fix_in_7_lines_or_less**</a><br />
 Bash script that run ***nginx*** as procces for the user ***nginx*** and configure it to listen the port 8080, in 7 lines or less

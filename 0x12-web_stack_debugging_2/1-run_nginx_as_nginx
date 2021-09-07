@@ -4,7 +4,7 @@
 pkill apache2
 chown nginx:nginx /etc/nginx/nginx.conf
 chmod u+r /etc/nginx/nginx.conf
-old_config="listen 80 default_server;"
-new_config="listen 8080 default_server;"
+old_config="80 default"
+new_config="8080 default"
 sed -i "s/$old_config/$new_config/" /etc/nginx/sites-available/default
 sudo -u nginx /etc/init.d/nginx start
