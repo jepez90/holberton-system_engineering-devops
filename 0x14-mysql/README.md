@@ -21,6 +21,6 @@
 * <a href="4-mysql_configuration_primary"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_code_file.svg" alt="Logo Code" height="20"> **4-mysql_configuration_primary**</a>, <a href="4-mysql_configuration_primary">**4-mysql_configuration_replica**</a> <br />
 Files of configuration of server database primary and replica
 
-* <a href="4-mysql_configuration_primary"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> ** 5-mysql_backup**</a> <br />
+* <a href="4-mysql_configuration_primary"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **5-mysql_backup**</a> <br />
 Script to create a sqldump of the database
 
