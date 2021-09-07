@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # excecute whoami with a given user
 
-su -u "$1" whoami
+sudo -u "$1" whoami
