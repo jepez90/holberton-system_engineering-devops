@@ -2,5 +2,5 @@
 # create a compressed backup for the all databases in localhost
 
 TAR_FILE_NAME=$(date '+%d-%m-%Y')
-mysqldump -u root -p "$1" --all-databases --master-data > backup.sql
+mysqldump -u root --password="$1" --all-databases > backup.sql
 tar -czvf "${TAR_FILE_NAME}.tar.gz" backup.sql
