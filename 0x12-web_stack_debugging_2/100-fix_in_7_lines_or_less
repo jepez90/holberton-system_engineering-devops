@@ -2,5 +2,5 @@
 # execute nginx as nginx user and linstenin in port 8080
 pkill apache2
 chmod a+r /etc/nginx/nginx.conf
-sed -i "s/listen 80 d/listen 8080 d/" /etc/nginx/sites-available/default
+sed -i "s/80 default/8080 default/" /etc/nginx/sites-available/default
 sudo -u nginx /etc/init.d/nginx start
