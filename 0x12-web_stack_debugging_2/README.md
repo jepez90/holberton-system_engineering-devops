@@ -19,7 +19,7 @@
 
 ## Files in this Folder:
 
-* <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-iamsomeoneelse**<br />
+* <a href="blob/main/0x12-web_stack_debugging_2/100-fix_in_7_lines_or_less"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_shell.svg" alt="Logo Shell" height="20"> **0-iamsomeoneelse**</a> <br />
 Bash script that accepts one argument and run the whoami command under the user passed as an argument
 
 

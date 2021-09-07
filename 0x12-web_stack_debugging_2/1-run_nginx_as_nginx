@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# execute nginx as nginx user
+# execute nginx as nginx user and linstenin in port 8080
 
 pkill apache2
 chown nginx:nginx /etc/nginx/nginx.conf
