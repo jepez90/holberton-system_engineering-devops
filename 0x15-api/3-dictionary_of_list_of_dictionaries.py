@@ -31,7 +31,7 @@ if __name__ == '__main__':
             task = {}
             task['task'] = todo.get('title')
             task['completed'] = todo.get('completed')
-            task['username'] = user.get('name')
+            task['username'] = user.get('username')
             tasks_list.append(task)
 
         # make a dictionary with user_id:tasklist

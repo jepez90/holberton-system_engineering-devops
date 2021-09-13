@@ -24,7 +24,7 @@ if __name__ == '__main__':
         for task in data_todos:
             file.write('"{}","{}","{}","{}"\n'.format(
                 data_user.get('id'),
-                data_user.get('name'),
+                data_user.get('username'),
                 task.get('completed'),
                 task.get('title')
             ))
