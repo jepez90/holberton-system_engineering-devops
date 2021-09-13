@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-# using this REST API, for a given employee ID, returns information about
-# his/her TODO list progress.
+""" using this REST API, for a given employee ID, returns information about
+    his/her TODO list progress.
+"""
 
-from sys import argv
 import json
 import requests
+import sys
 
 if __name__ == '__main__':
-    user_id = argv[1]
+    user_id = sys.argv[1]
     url_api = 'https://jsonplaceholder.typicode.com/'
     path = 'users/'
 
