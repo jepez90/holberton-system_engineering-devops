@@ -21,7 +21,7 @@ if __name__ == '__main__':
     completed_tasks_count = 0
     for task in data_todos:
         if task.get('completed'):
-            completed_tasks += '\t{}\n'.format(task.get('title'))
+            completed_tasks += '\t {}\n'.format(task.get('title'))
             completed_tasks_count += 1
 
     print('Employee {} is done with tasks({}/{}):'.format(
