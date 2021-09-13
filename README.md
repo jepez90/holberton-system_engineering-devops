@@ -140,3 +140,13 @@ Basic shell scripting
     How to configure firewall using ufw.
 
 <br />
+
+* <a href="0x14. MySQL"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_folder.svg" alt="Logo Folder" height="20"> **0x14-mysql**</a><br />
+> <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/banner_mysql.svg" alt="Logo MySQL" height="20"> Exercises about:
+    What is a database, What is a database primary/replicate cluster, MySQL primary/replicate setup, Build a robust database backup strategy
+
+<br />
+
+* <a href="0x14. MySQL"><img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logo_folder.svg" alt="Logo Folder" height="20"> **0x15-api**</a><br />
+> <img src="https://raw.githubusercontent.com/jepez90/jepez90.github.io/master/img/Readme_media/logoPythonBasic.svg" alt="Logo Python" height="20"> Exercises about:
+    What is an API, What is a REST API, What are microservices, and more...
