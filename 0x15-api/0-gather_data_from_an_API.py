@@ -25,7 +25,7 @@ if __name__ == '__main__':
             completed_tasks_count += 1
 
     print('Employee {} is done with tasks({}/{}):'.format(
-        data_user.get('username'),
+        data_user.get('name'),
         completed_tasks_count,
         len(data_todos))
     )
