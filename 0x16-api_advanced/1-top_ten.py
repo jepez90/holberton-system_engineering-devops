@@ -2,7 +2,6 @@
 """
 Defines the function number_of_subscribers
 """
-import json
 import requests
 
 
@@ -15,14 +14,10 @@ def top_ten(subreddit):
     url = url_api + path
 
     headers = requests.utils.default_headers()
-    headers.update(
-        {
-            'User-Agent': 'My User Agent 1.0',
-        }
-    )
+    headers.update({'User-Agent': 'My User Agent 1.0', })
+    query = {'limit': 10}
 
     # get info of the subreddit
-    query = {'limit': 10}
     response = requests.get(
         url,
         allow_redirects=False,

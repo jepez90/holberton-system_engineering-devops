@@ -2,7 +2,6 @@
 """
 Defines the function number_of_subscribers
 """
-import json
 import requests
 
 
@@ -23,4 +22,5 @@ def number_of_subscribers(subreddit):
     data = response.json()
     response.close()
 
+    # return the element data.subscribers
     return(data.get('data').get('subscribers'))

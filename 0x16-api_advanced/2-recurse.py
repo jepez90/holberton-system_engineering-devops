@@ -2,7 +2,6 @@
 """
 Defines the function number_of_subscribers
 """
-import json
 import requests
 
 
@@ -16,9 +15,9 @@ def recurse(subreddit, hot_list=[], after=None):
 
     headers = requests.utils.default_headers()
     headers.update({'User-Agent': 'My User Agent 1.0', })
+    query = {'limit': 100, 'after': after}
 
     # get info of the subreddit
-    query = {'limit': 100, 'after': after}
     response = requests.get(
         url,
         allow_redirects=False,
