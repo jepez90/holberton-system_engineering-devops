@@ -14,8 +14,11 @@ def recurse(subreddit, hot_list=[], after=None):
     url = url_api + path
 
     headers = requests.utils.default_headers()
-    headers.update({'User-Agent': 'My User Agent 1.0', })
-    query = {'limit': 100, 'after': after}
+    headers.update({
+        'User-Agent': 'Custom User Agent 1.0.1',
+        "Content-Type": "application/json",
+    })
+    query = {'limit': 100, 'after': after, }
 
     # get info of the subreddit
     response = requests.get(
@@ -24,6 +27,7 @@ def recurse(subreddit, hot_list=[], after=None):
         params=query,
         headers=headers
     )
+
     if response.status_code != 200:
         return None
     else:
@@ -33,7 +37,8 @@ def recurse(subreddit, hot_list=[], after=None):
             hot_list.append(item.get('data').get('title'))
 
     response.close()
-    if data.get('dist') == 100:
-        return recurse(subreddit, hot_list, data.get('after'))
-    else:
+
+    if data.get('after') is None:
         return hot_list
+    else:
+        return recurse(subreddit, hot_list, data.get('after'))
